@@ -1,2 +1,2 @@
-# ml-from-scratch
-reimplementing ml concepts
+# Deep Learning From Scratch
+reimplementing dl concepts
