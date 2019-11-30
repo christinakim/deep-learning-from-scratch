@@ -1,6 +1,8 @@
 import numpy as np
 import torch
-from models import InferSent
+
+from InferSent.models import InferSent
+
 V = 2
 MODEL_PATH = 'encoder/infersent%s.pkl' % V
 params_model = {'bsize': 64, 'word_emb_dim': 300, 'enc_lstm_dim': 2048,
@@ -22,6 +24,8 @@ infersent.visualize('A man plays an instrument.', tokenize=True)
 
 
 encoded_sentences = embeddings
+
+
 
 # greedy decoder
 def greedy_decoder(data):
@@ -64,4 +68,4 @@ for seq in result:
 
 
 # beam search with a width of 1 is equivalent to greedy search
-assert beam_search_decoder(encoded_sentences, 1) == greedy_decoder(encoded_sentences)
+assert beam_search_decoder(data, 1)[0][0] == greedy_decoder(data)
