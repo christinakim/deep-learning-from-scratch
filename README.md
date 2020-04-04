@@ -26,7 +26,7 @@ I spent some time learning classical ML first.
 
 - started off with a homemade ML in 10 weeks course:
 
-    tl;dr, here's the course, using content primarily from Hands-On Machine Learning with Scikit-Learn and TensorFlow and Andrew Ng's Coursera course on ML:
+    tl;dr, here's the course, using content primarily from [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/yanshengjia/ml-road/blob/master/resources/Hands%20On%20Machine%20Learning%20with%20Scikit%20Learn%20and%20TensorFlow.pdf) and Andrew Ng's [Coursera course on ML](https://www.coursera.org/learn/machine-learning):
     - Chapter 2 End-to-End Machine Learning Project
     - Chapter 3 Classification (precision/recall, multiclass)
     - Text feature extraction (from sklearn docs)
