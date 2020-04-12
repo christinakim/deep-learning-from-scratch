@@ -1,11 +1,11 @@
 # Deep Learning From Scratch
-How to get started
+[How to get started](#how-to-get-started)
 - [ML resources](#ml-resources)
 - [DL resources](#deep-learning-resources)
 - [NLP resources](#nlp-resources)
 - [Brushing up on math](#brushing-up-on-math)
 
-Paper reading
+[Paper reading](#paper-reading)
 - [How to manage papers](#how-to-manage-papers)
 - [How to figure out what to read](#how-to-figure-out-what-to-read-check-out-these-sources)
 - [How to read a paper](#how-to-read-a-paper)
@@ -20,7 +20,7 @@ Paper reading
 - [Variational Autoencoder (VAE)](VAE.py)
 
 ## How to get started
-I spent some time learning classical ML first. 
+I spent some time learning classical ML first since it was most relevant for my job. You can learn deep learning first without any other ML experience/knowledge.  
 
 ### ML resources
 
